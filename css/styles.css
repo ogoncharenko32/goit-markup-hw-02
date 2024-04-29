@@ -12,15 +12,22 @@ a {
     text-decoration: none;
 }
 
-.logo-web {
+.logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
 
 .logo-studio {
+    color: #2e2f42;
+}
+
+.logo-studio {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
@@ -33,6 +40,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     color: #2E2F42;
+    letter-spacing: 2%;
 }
 
 .nav-link:hover, .nav-link:focus  {
@@ -44,20 +52,28 @@ a {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 .adress-link:hover, .adress-link:focus {
     color: #404bbf;
 }
 
+.address {
+    font-style: normal
+}
+
+.first-section {
+    background-color: #2e2f42;
+}
+
 .main-header {
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 0.93333;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
     text-align: center;
     color: #fff;
-    background-color: #2e2f42;
 }
 
 .button {
@@ -66,8 +82,21 @@ a {
     line-height: 1.5;
     color: #fff;
     cursor: pointer;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     font-weight: 500;
+    background-color: #4D5AE5;
+}
+
+.button:hover, .button:focus {
+    background-color: #404BBF
+}
+
+.features-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .list-header {
@@ -75,16 +104,13 @@ a {
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    letter-spacing: 2%;
-}
-
-.features-header {
-    display: none;
+    letter-spacing: 0.02em;
 }
 
 .text {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .team-header {
@@ -96,19 +122,33 @@ a {
     color: #2e2f42;
 }
 
+.third-section {
+    background-color: #F4F4FD;
+
+}
+
+.portfolio-list-item {
+    background-color: #FFFFFF;
+}
+
 .portfolio-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 2%;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+}
+
+.footer {
+    background-color: #2e2f42;
 }
 
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #2e2f42;
 }
