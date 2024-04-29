@@ -46,7 +46,7 @@ a {
     color: #434455;
 }
 
-.adress-link:hover {
+.adress-link:hover, .adress-link:focus {
     color: #404bbf;
 }
 
@@ -54,7 +54,7 @@ a {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 2%;
-    line-height: 60px;
+    line-height: 0.93333;
     text-align: center;
     color: #fff;
     background-color: #2e2f42;
@@ -65,7 +65,6 @@ a {
     font-size: 16px;
     line-height: 1.5;
     color: #fff;
-    background-color: #4d5ae5;
     cursor: pointer;
     letter-spacing: 4%;
     font-weight: 500;
@@ -84,7 +83,6 @@ a {
 }
 
 .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -108,7 +106,6 @@ a {
 }
 
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
