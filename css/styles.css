@@ -40,7 +40,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     color: #2E2F42;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover, .nav-link:focus  {
@@ -91,7 +91,15 @@ a {
     background-color: #404BBF
 }
 
-.features-header {
+.second-section-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.second-section-list-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -116,10 +124,11 @@ a {
 .team-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 2%;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .third-section {
@@ -151,4 +160,8 @@ a {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #2e2f42;
+}
+
+.footer-logo-studio {
+    color: #f4f4fd;
 }
